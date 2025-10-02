@@ -649,7 +649,7 @@ nav .fa-solid {
     border: none;
     border-radius: 0.8rem;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     align-items: center;
   }
 
@@ -667,11 +667,10 @@ nav .fa-solid {
     cursor: pointer;
     font-size: 16px;
     align-items: center;
-    text-decoration: none;
   }
  .visitdribble-button button a{
-   font-size:16px;
-   text-decoration:none;
+   font-size: 16px;
+   text-decoration: none;
  }
   .visitdribble-button img {
     width: 1.4rem;
