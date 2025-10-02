@@ -220,6 +220,7 @@ li img {
   justify-content: center;
   align-items: center;
   row-gap: 1.6rem;
+  padding:1ren 1rem 1rem 1rem;
 }
 .featured-texts {
   display: flex;
