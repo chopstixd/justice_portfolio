@@ -597,7 +597,7 @@ nav .fa-solid {
     row-gap: 0.8rem;
   }
   .Detailed-container img {
-    width: 24rem;
+    width: 23rem;
     height: auto;
   }
   .details-class {
@@ -658,7 +658,7 @@ nav .fa-solid {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    row-gap: 0.3rem;
+    row-gap: 0.5rem;
     color: #ffffff;
     background-color: #272727;
     padding: 1.2rem 10rem;
@@ -667,6 +667,7 @@ nav .fa-solid {
     cursor: pointer;
     font-size: 14px;
     align-items: center;
+    text-decoration:none;
   }
 
   .visitdribble-button img {
