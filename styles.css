@@ -578,7 +578,7 @@ nav .fa-solid {
     color: #ffffffd6;
   }
   .Detailed-wrapper {
-    width: 100%;
+    width: 96%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -596,7 +596,7 @@ nav .fa-solid {
     row-gap: 0.8rem;
   }
   .Detailed-container img {
-    width: 25rem;
+    width: 21rem;
     height: auto;
   }
   .details-class {
@@ -628,7 +628,7 @@ nav .fa-solid {
   .view-button button {
     color: #ffffff;
     background-color: #272727;
-    padding: 1.2rem 2.5rem;
+    padding: 1.2rem 1.8rem;
     border: none;
     border-radius: 0.8rem;
     cursor: pointer;
@@ -822,12 +822,12 @@ nav .fa-solid {
   }
   nav ul li {
     display: block;
-    margin: 25px;
+    margin: 20px;
     background: none;
   }
   nav ul .fa-solid {
     position: absolute;
-    top: 25px;
+    top: 20px;
     left: 25px;
     cursor: pointer;
   }
@@ -856,7 +856,7 @@ nav .fa-solid {
 
   nav ul .fa-solid {
     position: absolute;
-    top: 25px;
+    top: 20px;
     left: 25px;
     cursor: pointer;
   }
