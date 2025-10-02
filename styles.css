@@ -645,7 +645,7 @@ nav .fa-solid {
   .viewmore-button button {
     color: #ffffff;
     background-color: #5300e1;
-    padding: 1.2rem 8rem;
+    padding: 1.2rem 9rem;
     border: none;
     border-radius: 0.8rem;
     cursor: pointer;
@@ -727,7 +727,7 @@ nav .fa-solid {
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    padding: 2rem;
+    padding: 1rem;
     row-gap: 2rem;
   }
   .footer-text-container {
@@ -770,7 +770,7 @@ nav .fa-solid {
   .buttom-text h4 {
     font-size: 21px;
     font-weight: 50;
-    color: #ffffff8d;
+    color: #ffffffff;
   }
   .buttom-text p {
     font-size: 18px;
