@@ -569,7 +569,7 @@ nav .fa-solid {
     row-gap: 0.2rem;
   }
   .featured-texts h2 {
-    font-size: 38px;
+    font-size: 32px;
     font-weight: 100;
   }
   .featured-texts p {
@@ -621,7 +621,7 @@ nav .fa-solid {
     font-weight: 300;
   }
   .details-texts p {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 50;
     color: #ffffff8d;
   }
@@ -648,7 +648,7 @@ nav .fa-solid {
     border: none;
     border-radius: 0.8rem;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 14px;
     align-items: center;
   }
 
@@ -659,12 +659,12 @@ nav .fa-solid {
     border: none;
     border-radius: 0.8rem;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 14px;
     align-items: center;
   }
 
   .visitdribble-button img {
-    width: 1.6rem;
+    width: 1.4rem;
     height: auto;
   }
   .tools-container {
@@ -856,9 +856,8 @@ nav .fa-solid {
 
   nav ul .fa-solid {
     position: absolute;
-    top: 0px;
+    top: 28px;
     left: 25px;
-    buttom:50px;
     cursor: pointer;
   }
 
