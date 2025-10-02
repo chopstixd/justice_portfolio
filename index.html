@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link />
+  </head>
+  <body>
+    <div class="main-container">
+      <!--Header section-->
+      <div class="Header-container">
+        <nav>
+          <div class="logo-container">
+            <logo class="logo-text">Justice C.</logo>
+            <div class="logo-icons-container">
+              <div class="logo-icon">
+                <a
+                  href="https://www.linkedin.com/in/chukwu-justice/"
+                  target="_blank"
+                >
+                  <img src="./line-md_linkedin.png" alt="LinkedIn icon" />
+                </a>
+              </div>
+              <div class="logo-icon">
+                <a
+                  href="https://www.behance.net/chukwujust1a43"
+                  target="_blank"
+                >
+                  <img src="./mage_behance.png" alt="Behance icon" />
+                </a>
+              </div>
+
+              <div class="logo-icon">
+                <a href="https://dribbble.com/chopstix1" target="_blank">
+                  <img src="./web.png" alt="dribble icon" />
+                </a>
+              </div>
+              <div class="logo-icon">
+                <a href="https://github.com/chopstixd" target="_blank">
+                  <img src="ant-design_github-filled.png" alt="github icon" />
+                </a>
+              </div>
+              <div class="logo-icon">
+                <a href="https://x.com/_c_justice" target="_blank">
+                  <img src="./prime_twitter.png" alt="Twitter icon" />
+                </a>
+              </div>
+              <div class="logo-icon">
+                <a href="https://medium.com/@chukwujustice6" target="_blank">
+                  <img src="./medium-icon.png" alt="Medium icon" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="side-container" id="sidemenu">
+            <ul>
+              <li>
+                <img src="iconamoon_profile-thin.png" />
+                <a href="#about">About Me</a>
+              </li>
+              <li>
+                <img src="./material-symbols-light_work-outline.png" />
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <img
+                  src="./material-symbols-light_menu-book-outline-sharp.png"
+                />
+                <a href="#journals">Journals</a>
+              </li>
+              <li>
+                <img src="./fluent_chat-32-light.png" />
+                <a href="#contact">Contact Me</a>
+              </li>
+              <i class="fa-solid fa-xmark" onClick="closemenu()"></i>
+            </ul>
+          </div>
+          <i class="fa-solid fa-bars" onClick="openmenu()"></i>
+        </nav>
+      </div>
+
+      <!--Hero(About me) section-->
+      <div class="hero-section-container autoShow" id="about">
+        <div class="profile-picture autoShow">
+          <img src="./Frame 10.png" alt="display picture" />
+        </div>
+        <div class="about-me-page">
+          <div class="about-me-texts"></div>
+          <h1>About Me</h1>
+          <p>
+            Hi, I’m Chukwu Justice — a product designer with 3 years of
+            experience<br />
+            designing & building products for startups & enterprises. <br />
+            I’m also a frontend developer and a digital illustrator that loves
+            to turn ideas into beautifully crafted digital experiences.<br />
+            I specialize in creating intuitive user interfaces, seamless user
+            journeys, and clean, <br />responsive code that brings designs to
+            life. With a background in both design and development,<br />
+            I bridge the gap between aesthetics and functionality.<br />
+            Whether it's wireframing an app, building a mobile-first website,<br />
+            or illustrating custom graphics, <br />I approach every project with
+            curiosity, empathy, and a strong attention to detail.<br />
+            Let's build something great together!
+          </p>
+          <div class="about-me-buttons">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdCis4X6GcylQy8uTZepEm76xI8S5fIwtAeOvHNQQqF1KFC7g/viewform?usp=header"
+              target="_blank"
+            >
+              <button class="hire-me-btn">Hire Me</button>
+            </a>
+            <div class="resume-container">
+              <img
+                src="./material-symbols-light_download.png"
+                alt="download icon"
+              />
+              <a href="Justice Cukwu _CV (2).pdf">Download Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects-container" id="projects">
+        <!--UI/UX Design projects section-->
+        <div class="featured-container autoShow">
+          <div class="featured-texts">
+            <h2>Featured Work</h2>
+            <p>UI/IX Designs</p>
+          </div>
+          <div class="Detailed-wrapper">
+            <div class="Detailed-container autoShow">
+              <a
+                href="https://www.behance.net/gallery/225249307/Thinkeo"
+                target="_blank"
+              >
+                <img src="./thinkeo.png" alt="thinkeo img" />
+              </a>
+              <div class="details-class">
+                <div class="details-texts">
+                  <h3>Thinkeo App</h3>
+                  <p>A STEM leaning platform for kids</p>
+                </div>
+                <div class="view-button">
+                  <a
+                    href="https://www.behance.net/gallery/225249307/Thinkeo"
+                    target="_blank"
+                  >
+                    <button>View</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="Detailed-container autoShow">
+              <img src="./go Lemon.png" alt="Go lemon img" />
+              <div class="details-class">
+                <div class="details-texts">
+                  <h3>Go Lemon App</h3>
+                  <p>A Grocery store app redesign</p>
+                </div>
+                <div class="view-button">
+                  <a
+                    href="https://www.behance.net/gallery/204099221/GoLemon-A-Grocery-App-Redesign-(Case-Study)"
+                    target="_blank"
+                  >
+                    <button>View</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="Detailed-container autoShow">
+              <a
+                href="https://www.behance.net/gallery/189097139/Task-management-web-app"
+              >
+                <img src="./Tasks.png" alt="tasks img" />
+              </a>
+              <div class="details-class">
+                <div class="details-texts">
+                  <h3>Tasks Management</h3>
+                  <p>A Tasks management web app.</p>
+                </div>
+                <div class="view-button">
+                  <a
+                    href="https://www.behance.net/gallery/189097139/Task-management-web-app"
+                  >
+                    <button>View</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="viewmore-visitdribble-container autoShow">
+            <div class="viewmore-button">
+              <a href="https://www.behance.net/chukwujust1a43">
+                <button>View More</button>
+              </a>
+            </div>
+            <div class="visitdribble-button">
+              <a href="https://dribbble.com/chopstix1">
+                <button>
+                  <img src="./web.png" />
+                  Visit dribbble
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--frontend development projects section-->
+        <div class="featured-container autoShow">
+          <div class="featured-texts">
+            <p>Frontend Development</p>
+          </div>
+          <div class="Detailed-wrapper autoShow">
+            <div class="Detailed-container">
+              <img src="./colors picker.png" alt="color picker img" />
+              <div class="details-class">
+                <div class="details-texts">
+                  <h3>Palletoo!</h3>
+                  <p>A Color picker web app</p>
+                </div>
+                <div class="view-button">
+                  <button>View</button>
+                </div>
+              </div>
+            </div>
+            <div class="Detailed-container autoShow">
+              <a
+                href="https://google-deepmind-redesign.vercel.app/"
+                target="_blank"
+              >
+                <img src="./google deepmind img.png" alt="Google deepmind" />
+              </a>
+              <div class="details-class">
+                <div class="details-texts">
+                  <h3>Google Deepmind -Redesign</h3>
+                  <p>Google Veo AI webapp redesign</p>
+                </div>
+                <div class="view-button">
+                  <a
+                    href="https://google-deepmind-redesign.vercel.app/"
+                    target="_blank"
+                  >
+                    <button>View</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="Detailed-container autoShow">
+              <a href="https://todo-app-79.vercel.app/" target="_blank">
+                <img src="./todo app.png" alt="tasks img" />
+              </a>
+              <div class="details-class">
+                <div class="details-texts">
+                  <h3>Todo App</h3>
+                  <p>A todo-list webapp</p>
+                </div>
+                <div class="view-button">
+                  <a href="https://todo-app-79.vercel.app/" target="_blank">
+                    <button>View</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="viewmore-visitdribble-container autoShow">
+            <div class="visitdribble-button">
+              <a href="https://github.com/chopstixd" target="_blank">
+                <button>
+                  <img src="./gitbub icon.png" />
+                  Visit github
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--illustrations projects section-->
+        <div class="featured-container autoShow">
+          <div class="featured-texts">
+            <p>Illustrations</p>
+          </div>
+          <div class="Detailed-wrapper">
+            <div class="Detailed-container autoShow">
+              <img src="./pay illustration.png" alt="pay illustration img" />
+              <div class="details-class">
+                <div class="details-texts">
+                  <h3>Pay Swift</h3>
+                  <p>A fast payment illustration</p>
+                </div>
+              </div>
+            </div>
+            <div class="Detailed-container autoShow">
+              <img
+                src="./Transfer Illustration.png"
+                alt="Transfer illustration"
+              />
+              <div class="details-class">
+                <div class="details-texts">
+                  <h3>Send with ease</h3>
+                  <p>An illustration showing bitcoin transaction</p>
+                </div>
+              </div>
+            </div>
+            <div class="Detailed-container autoShow">
+              <img
+                src="./Secure payment illustration.png"
+                alt="secure payment img"
+              />
+              <div class="details-class">
+                <div class="details-texts">
+                  <h3>Payment Security</h3>
+                  <p>An illustration showing that payment are secured</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Journals section-->
+      <div class="journals-container">
+        <div class="featured-container autoShow" id="journals">
+          <div class="featured-texts">
+            <h2>Journals</h2>
+            <p>Journals Written by Me</p>
+          </div>
+          <div class="Detailed-wrapper">
+            <div class="Detailed-container autoShow">
+              <a
+                href="https://medium.com/@chukwujustice6/understanding-function-parameters-and-arguments-in-javascript-like-a-10-year-old-47d98fbadca1"
+                target="_blank"
+              >
+                <img src="./Functions article.png" alt="functions article" />
+              </a>
+              <div class="details-class">
+                <div class="details-texts">
+                  <h3>Functions and Parameters</h3>
+                  <p>Understanding Function Parameters & Argument</p>
+                </div>
+                <div class="view-button">
+                  <a
+                    href="https://medium.com/@chukwujustice6/understanding-function-parameters-and-arguments-in-javascript-like-a-10-year-old-47d98fbadca1"
+                    target="_blank"
+                  >
+                    <button>View</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="Detailed-container autoShow">
+              <a
+                href="https://justicedev.hashnode.dev/e-commerce-app-project-for-altschool-second-semester-examination"
+                target="_blank"
+              >
+                <img src="./React project.png" alt="Reactjs project img" />
+              </a>
+              <div class="details-class">
+                <div class="details-texts">
+                  <h3>React project</h3>
+                  <p>An E-commerce web app built with react</p>
+                </div>
+                <div class="view-button">
+                  <a
+                    href="https://justicedev.hashnode.dev/e-commerce-app-project-for-altschool-second-semester-examination"
+                    target="_blank"
+                  >
+                    <a
+                      href="https://justicedev.hashnode.dev/e-commerce-app-project-for-altschool-second-semester-examination"
+                      target="_blank"
+                    >
+                      <button>View</button>
+                    </a>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="Detailed-container autoShow">
+              <a
+                href="https://medium.com/@chukwujustice6/sign-up-and-login-page-for-dyslexia-patience-case-study-18f4b04c4014"
+                target="_blank"
+              >
+                <img src="./dyslexia writeup.png" alt="tasks img" />
+              </a>
+              <div class="details-class">
+                <div class="details-texts">
+                  <h3>Game App</h3>
+                  <p>SignUp and Login page for Dyslexia patients</p>
+                </div>
+                <div class="view-button">
+                  <a
+                    href="https://medium.com/@chukwujustice6/sign-up-and-login-page-for-dyslexia-patience-case-study-18f4b04c4014"
+                    target="_blank"
+                  >
+                    <button>View</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="viewmore-visitdribble-container autoShow">
+            <div class="visitdribble-button">
+              <a href="https://medium.com/@chukwujustice6" target="_blank">
+                <button>
+                  <img src="./lineicons_medium.png" />
+                  Visit Medium
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Tools Section-->
+      <div class="tools-container autoShow">
+        <div class="tools-text">
+          <h1>Tools</h1>
+          <p>List of tools i use</p>
+        </div>
+        <div class="tool-wrapper autoShow">
+          <div class="tool-text-container">
+            <img src="./figma.png" alt="figma icon" />
+            <p>Figma</p>
+          </div>
+          <div class="tool-text-container">
+            <img src="./Frame 2131329528.png" alt="framer icon" />
+            <p>Framer</p>
+          </div>
+          <div class="tool-text-container">
+            <img src="./miro.png" alt="miro img" />
+            <p>Miro</p>
+          </div>
+          <div class="tool-text-container">
+            <img src="./VScode png.png" alt="vscode img" />
+            <p>Vscode</p>
+          </div>
+          <div class="tool-text-container">
+            <img src="./Githubpng.png" alt="Github img" />
+            <p>Github</p>
+          </div>
+          <div class="tool-text-container">
+            <img src="./notion.png" alt="Notion img" />
+            <p>Notion</p>
+          </div>
+          <div class="tool-text-container">
+            <img src="./Vercel.png" alt="vercel img" />
+            <p>Vercel</p>
+          </div>
+          <div class="tool-text-container">
+            <img src="./medium img.png" alt="medium img" />
+            <p>Medium</p>
+          </div>
+        </div>
+      </div>
+
+      <!--Language Section-->
+      <div class="tools-container autoShow">
+        <div class="tools-text">
+          <h1>Language</h1>
+          <p>The various software engineering Language i use</p>
+        </div>
+        <div class="tool-wrapper autoShow">
+          <div class="tool-text-container">
+            <img src="./html-5--v1.png" alt="html img" />
+            <p>Html</p>
+          </div>
+          <div class="tool-text-container">
+            <img src="./css.png" alt="css img" />
+            <p>CSS</p>
+          </div>
+          <div class="tool-text-container">
+            <img src="./javascript.png" alt="javascript img" />
+            <p>JavasScript</p>
+          </div>
+          <div class="tool-text-container">
+            <img src="./taiwind.png" alt="taiwind img" />
+            <p>Taiwind</p>
+          </div>
+          <div class="tool-text-container">
+            <img src="./reactjs.png" alt="reactjs img" />
+            <p>Reactjs</p>
+          </div>
+        </div>
+      </div>
+
+      <!--Footer section-->
+      <div class="footer-container autoShow" id="contact">
+        <div class="logo-container">
+          <logo class="logo-text">Justice C.</logo>
+          <div class="logo-icons-container">
+            <div class="logo-icon">
+              <a
+                href="https://www.linkedin.com/in/chukwu-justice/"
+                target="_blank"
+              >
+                <img src="./line-md_linkedin.png" alt="LinkedIn icon" />
+              </a>
+            </div>
+            <div class="logo-icon">
+              <a href="https://www.behance.net/chukwujust1a43" target="_blank">
+                <img src="./mage_behance.png" alt="Behance icon" />
+              </a>
+            </div>
+
+            <div class="logo-icon">
+              <a href="https://dribbble.com/chopstix1" target="_blank">
+                <img src="./web.png" alt="dribble icon" />
+              </a>
+            </div>
+            <div class="logo-icon">
+              <a href="https://github.com/chopstixd" target="_blank">
+                <img src="ant-design_github-filled.png" alt="github icon" />
+              </a>
+            </div>
+            <div class="logo-icon">
+              <a href="https://x.com/_c_justice" target="_blank">
+                <img src="./prime_twitter.png" alt="Twitter icon" />
+              </a>
+            </div>
+            <div class="logo-icon">
+              <a href="https://medium.com/@chukwujustice6" target="_blank">
+                <img src="./medium-icon.png" alt="Medium icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-text-container autoShow">
+          <div class="contact-me-text">
+            <h3>CONTACT ME</h3>
+            <p>+2349074441564</p>
+          </div>
+          <div class="email-text">
+            <h3>EMAIL</h3>
+            <p>chukwujustice6@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="buttom-wrapper">
+        <div class="buttom-text">
+          <h4>Built & Designed</h4>
+          <p>by Chukwu Justice</p>
+        </div>
+        <div class="left-container">
+          <img src="./Group.png" alt=" copy right icon" />
+          <p>Copy right 2025</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
