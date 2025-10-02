@@ -597,7 +597,7 @@ nav .fa-solid {
     row-gap: 0.8rem;
   }
   .Detailed-container img {
-    width: 21.6rem;
+    width: 22rem;
     height: auto;
   }
   .details-class {
@@ -811,6 +811,7 @@ ul {
     align-items: center;
     row-gap: 0.5rem;
     background-color: none;
+  background: #272727;
   }
 
   nav .fa-solid {
@@ -834,6 +835,8 @@ ul {
     display: block;
     margin: 25px;
     background: none;
+        list-style: none;
+    padding: 0.8rem;
   }
   nav ul .fa-solid {
     position: absolute;
