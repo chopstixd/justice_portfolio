@@ -534,7 +534,7 @@ nav .fa-solid {
     border: none;
     border-radius: 0.6rem;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 18px;
     align-items: center;
   }
   .resume-container {
@@ -597,7 +597,7 @@ nav .fa-solid {
     row-gap: 0.8rem;
   }
   .Detailed-container img {
-    width: 22rem;
+    width: 21.6rem;
     height: auto;
   }
   .details-class {
@@ -622,7 +622,7 @@ nav .fa-solid {
     font-weight: 300;
   }
   .details-texts p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 50;
     color: #ffffff8d;
   }
@@ -665,11 +665,14 @@ nav .fa-solid {
     border: none;
     border-radius: 0.8rem;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     align-items: center;
     text-decoration: none;
   }
-
+ .visitdribble-button button a{
+   font-size:16px;
+   text-decoration:none;
+ }
   .visitdribble-button img {
     width: 1.4rem;
     height: auto;
