@@ -552,13 +552,13 @@ nav .fa-solid {
     font-weight: 200;
   }
   .featured-container {
-    width: 100%;
+    width: 96%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 2.6rem;
+    row-gap: 3rem;
     flex-basis: 100%;
   }
   .featured-texts {
@@ -569,16 +569,16 @@ nav .fa-solid {
     row-gap: 0.2rem;
   }
   .featured-texts h2 {
-    font-size: 44px;
+    font-size: 41px;
     font-weight: 100;
   }
   .featured-texts p {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 100;
     color: #ffffffd6;
   }
   .Detailed-wrapper {
-    width: 100%;
+    width: 96%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -596,7 +596,7 @@ nav .fa-solid {
     row-gap: 0.8rem;
   }
   .Detailed-container img {
-    width: 25rem;
+    width: 21rem;
     height: auto;
   }
   .details-class {
@@ -617,18 +617,18 @@ nav .fa-solid {
     row-gap: 0.6rem;
   }
   .details-texts h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
   }
   .details-texts p {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 50;
     color: #ffffff8d;
   }
   .view-button button {
     color: #ffffff;
     background-color: #272727;
-    padding: 1.2rem 2.5rem;
+    padding: 1.2rem 1.8rem;
     border: none;
     border-radius: 0.8rem;
     cursor: pointer;
