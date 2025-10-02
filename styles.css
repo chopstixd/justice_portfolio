@@ -592,12 +592,12 @@ nav .fa-solid {
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     row-gap: 0.8rem;
   }
   .Detailed-container img {
-    width: 23rem;
+    width: 22rem;
     height: auto;
   }
   .details-class {
@@ -645,7 +645,7 @@ nav .fa-solid {
   .viewmore-button button {
     color: #ffffff;
     background-color: #5300e1;
-    padding: 1.2rem 10rem;
+    padding: 1.2rem 8rem;
     border: none;
     border-radius: 0.8rem;
     cursor: pointer;
@@ -661,13 +661,13 @@ nav .fa-solid {
     row-gap: 0.5rem;
     color: #ffffff;
     background-color: #272727;
-    padding: 1.2rem 10rem;
+    padding: 1.2rem 8rem;
     border: none;
     border-radius: 0.8rem;
     cursor: pointer;
     font-size: 14px;
     align-items: center;
-    text-decoration:none;
+    text-decoration: none;
   }
 
   .visitdribble-button img {
