@@ -640,7 +640,7 @@ nav .fa-solid {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 1.8rem;
+    row-gap: 1.5rem;
   }
   .viewmore-button button {
     color: #ffffff;
