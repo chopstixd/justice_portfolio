@@ -433,7 +433,7 @@ li img {
 .buttom-text h4 {
   font-size: 12px;
   font-weight: 50;
-  color: #ffffff73;
+  color: #ffffffff;
 }
 .buttom-text p {
   font-size: 12px;
@@ -640,7 +640,7 @@ nav .fa-solid {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 2.6rem;
+    row-gap: 1.8rem;
   }
   .viewmore-button button {
     color: #ffffff;
