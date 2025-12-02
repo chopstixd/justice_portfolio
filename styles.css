@@ -579,7 +579,7 @@ nav .fa-solid {
     color: #ffffffd6;
   }
   .Detailed-wrapper {
-    width: 96%;
+    width: 90%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -597,7 +597,7 @@ nav .fa-solid {
     row-gap: 0.8rem;
   }
   .Detailed-container img {
-    width: 25rem;
+    width: 23rem;
     height: auto;
   }
   .details-class {
