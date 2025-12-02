@@ -220,6 +220,7 @@ li img {
   justify-content: center;
   align-items: center;
   row-gap: 1.6rem;
+  padding: 1ren 1rem 1rem 1rem;
 }
 .featured-texts {
   display: flex;
@@ -432,7 +433,7 @@ li img {
 .buttom-text h4 {
   font-size: 12px;
   font-weight: 50;
-  color: #ffffff73;
+  color: #ffffffff;
 }
 .buttom-text p {
   font-size: 12px;
@@ -533,7 +534,7 @@ nav .fa-solid {
     border: none;
     border-radius: 0.6rem;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 18px;
     align-items: center;
   }
   .resume-container {
@@ -552,7 +553,7 @@ nav .fa-solid {
     font-weight: 200;
   }
   .featured-container {
-    width: 96%;
+    width: 98%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -569,7 +570,7 @@ nav .fa-solid {
     row-gap: 0.2rem;
   }
   .featured-texts h2 {
-    font-size: 41px;
+    font-size: 32px;
     font-weight: 100;
   }
   .featured-texts p {
@@ -582,8 +583,8 @@ nav .fa-solid {
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     row-gap: 3rem;
   }
   .Detailed-container {
@@ -591,12 +592,12 @@ nav .fa-solid {
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     row-gap: 0.8rem;
   }
   .Detailed-container img {
-    width: 21rem;
+    width: 25rem;
     height: auto;
   }
   .details-class {
@@ -621,14 +622,14 @@ nav .fa-solid {
     font-weight: 300;
   }
   .details-texts p {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 50;
     color: #ffffff8d;
   }
   .view-button button {
     color: #ffffff;
     background-color: #272727;
-    padding: 1.2rem 1.8rem;
+    padding: 1.2rem 2.5rem;
     border: none;
     border-radius: 0.8rem;
     cursor: pointer;
@@ -639,32 +640,40 @@ nav .fa-solid {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 2.6rem;
+    row-gap: 1.5rem;
   }
   .viewmore-button button {
     color: #ffffff;
     background-color: #5300e1;
-    padding: 1.2rem 10rem;
+    padding: 1.2rem 9.7rem;
     border: none;
     border-radius: 0.8rem;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 16px;
     align-items: center;
   }
 
   .visitdribble-button button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.5rem;
     color: #ffffff;
     background-color: #272727;
-    padding: 1.2rem 10rem;
+    padding: 1.2rem 8.7rem;
     border: none;
     border-radius: 0.8rem;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 16px;
     align-items: center;
   }
-
+  .visitdribble-button button a {
+    font-size: 16px;
+    text-decoration: none;
+  }
   .visitdribble-button img {
-    width: 2rem;
+    width: 1.4rem;
     height: auto;
   }
   .tools-container {
@@ -720,7 +729,7 @@ nav .fa-solid {
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    padding: 2rem;
+    padding: 1rem;
     row-gap: 2rem;
   }
   .footer-text-container {
@@ -763,7 +772,7 @@ nav .fa-solid {
   .buttom-text h4 {
     font-size: 21px;
     font-weight: 50;
-    color: #ffffff8d;
+    color: #ffffffff;
   }
   .buttom-text p {
     font-size: 18px;
@@ -795,13 +804,14 @@ nav .fa-solid {
 
   ul {
     width: 100%;
-    height: 800px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     row-gap: 0.5rem;
-    background: none;
+    background-color: none;
+    background: #272727;
   }
 
   nav .fa-solid {
@@ -820,10 +830,13 @@ nav .fa-solid {
     z-index: 2;
     transition: 0.5s;
   }
+
   nav ul li {
     display: block;
     margin: 25px;
     background: none;
+    list-style: none;
+    padding: 0.8rem;
   }
   nav ul .fa-solid {
     position: absolute;
@@ -831,7 +844,6 @@ nav .fa-solid {
     left: 25px;
     cursor: pointer;
   }
-
   .Header-container {
     width: 100%;
     height: auto;
@@ -840,25 +852,6 @@ nav .fa-solid {
     justify-content: space-between;
     align-items: center;
     padding: 0.8rem;
-  }
-
-  nav .fa-solid {
-    display: block;
-    font-size: 25px;
-  }
-
-  nav ul li {
-    display: block;
-    margin: 25px;
-    list-style: none;
-    background: none;
-  }
-
-  nav ul .fa-solid {
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    cursor: pointer;
   }
 
   .autoShow {
